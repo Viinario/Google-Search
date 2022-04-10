@@ -88,12 +88,10 @@ ul {
     padding: 9px 19px;
   }
 
-  .T8VaVe{
+  .kacha{
     color: #4285f4;
     font: 16px/16px roboto-regular, arial, sans-serif;
-    left: 215px;
-    position: absolute;
-    bottom: 0;
-    white-space: nowrap;
-    padding: 373px 421px;
+    position: relative;
+    right: 62px;
+    bottom: 5px;
   }
