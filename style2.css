@@ -89,6 +89,11 @@ ul {
   }
 
   .T8VaVe{
-      font-family: Arial, Helvetica, sans-serif;
-      color: #4885ed;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: absolute;
+    bottom: 0;
+    white-space: nowrap;
+    padding: 373px 421px;
   }
