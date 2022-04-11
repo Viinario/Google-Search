@@ -20,7 +20,7 @@ ul {
     text-decoration: underline;
   }
   .grid{
-    height:24px;
+    height:26px;
     position:relative;
     top: 1px;
   }
@@ -32,9 +32,9 @@ ul {
     padding:7px 10px;
     position:relative;
     bottom:7px;
-    font-weight:bold;
     width: 70px;
     height: 30px;
+    right: 14px;
   }
   .logo{
     margin-top:200px;
@@ -87,8 +87,8 @@ ul {
     margin:5px;
     border-radius:4px;
     outline:none;
-    height: 20px;
-    width: 70px;
+    height: 15px;
+    width: 40px;
     background-color: #1a73e8;
   }
   .button:hover{
