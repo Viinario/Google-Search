@@ -107,7 +107,7 @@ ul {
   }
 
   .countryBar{
-    background-color: #EBEBEB;
+    background-color: rgb(242, 242, 242);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -127,7 +127,7 @@ ul {
     bottom: 60px;
   }
   .lastBar{
-    background-color: #EBEBEB;
+    background-color: rgb(242, 242, 242);
     position: fixed;
     bottom: -50px;
     left: 0;
