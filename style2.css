@@ -157,3 +157,35 @@ ul {
     color: #70757a;
     font-size: 15px;
   }
+
+  
+@media (max-width: 700px) {
+  .list_right{
+    bottom: -30px;
+  }
+}
+@media (max-height: 640px){
+  .countryBar{
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    width: 10%;
+  }
+
+  .lastBar{
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 10%;
+    border-color:rgb(255, 255, 255);
+  }
+  .list_left{
+    left: 60000px;
+  }
+  .list_right{
+    right: 60000px;
+  }
+  .country{
+    left: 60000px;
+  }
+}
