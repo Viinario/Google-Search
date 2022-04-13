@@ -16,7 +16,7 @@ This project has the <ins>same functionalities</ins> as found in the original Go
 
 ![Search](https://user-images.githubusercontent.com/69995288/163196165-d59f829f-ed6a-4303-9602-75c9ae8531a1.png)
 
-> Status: Developing ⚠️
+> Status: Release 🌎
 
 <h2> Interface </h2>
 
@@ -37,7 +37,7 @@ There is a `search field` where you can enter your query and Google will take yo
 
 ![image](https://user-images.githubusercontent.com/69995288/163200021-bd86e792-a3c2-4427-b410-feed60890d0a.png)
 
-> Status: Developing ⚠️
+> Status: Release 🌎
 
 <h2> Interface </h2>
 
@@ -58,7 +58,7 @@ There is a `search field` where you can enter your query and Google will take yo
 
 ![advanced](https://user-images.githubusercontent.com/69995288/163201972-e917ac47-de27-40c1-9aab-8a2b09b7711a.png)
 
-> Status: Developing ⚠️
+> Status: Release 🌎
 
 <h2> Interface </h2>
 
