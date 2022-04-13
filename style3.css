@@ -1,0 +1,256 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 16px 10px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    height: 26px;
+    position: relative;
+    top: -6px;
+}
+
+.signbutton {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 10px;
+    position: relative;
+    bottom: 7px;
+    width: 70px;
+    height: 30px;
+    right: 14px;
+}
+
+.button {
+    background-color: #f5f5f5;
+    border: none;
+    color: #707070;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: none;
+    height: 15px;
+    width: 40px;
+    background-color: #1a73e8;
+}
+
+.button:hover {
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color: #808080;
+}
+
+.button:focus {
+    border: 1px solid #4885ed;
+    padding: 9px 19px;
+}
+
+
+.google {
+    float: left;
+    width: 70px;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+.appBar {
+    position: fixed;
+    color: #d93025;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+}
+
+.search {
+    top: 220px;
+    position: fixed;
+    left: 240px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    width: 400px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+}
+
+.input2 {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    width: 186px;
+}
+
+.label {
+    position: fixed;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+.find{
+    top: 180px;
+    position: fixed;
+    left: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 640px) {
+    .input {
+        width: 50%;
+        border-radius: 1px;
+        border: 1px solid #d9d9d9;
+        border-top: 1px solid #c0c0c0;
+        font-size: 13px;
+        height: 25px;
+    }
+    
+    .input2 {
+        border-radius: 1px;
+        border: 1px solid #d9d9d9;
+        border-top: 1px solid #c0c0c0;
+        font-size: 13px;
+        height: 25px;
+        width: 22%;
+    }
+}
+
+.border{
+    position: fixed;
+    left: 0;
+    top: 145px;
+    border-top: 1px solid #ebebeb;;
+    width: 100%;
+    height: 330px;
+}
+
+.border2{
+    position: fixed;
+    left: 0;
+    top: 470px;
+    border-top: 1px solid #ebebeb;
+    width: 1000px;
+    height: 330px; 
+}
+
+.right{
+    position: fixed;
+    width: 820px;
+    height: 30px; 
+    top: 160px;
+    text-align: right;
+    font-family: arial,sans-serif;
+    color: #777;
+}
+
+.right2{
+    position: fixed;
+    width: 830px;
+    height: 30px; 
+    top: 225px;
+    text-align: right;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    left: 50px;
+}
+
+.right3{
+    position: fixed;
+    width: 795px;
+    height: 30px; 
+    top: 272px;
+    text-align: right;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    left: 50px;
+}
+
+.right4{
+    position: fixed;
+    width: 925px;
+    height: 30px; 
+    top: 322px;
+    text-align: right;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    left: 50px;
+}
+
+.right5{
+    position: fixed;
+    width: 875px;
+    height: 30px; 
+    top: 368px;
+    text-align: right;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    left: 50px;
+}
+
+.right6{
+    position: fixed;
+    width: 958px;
+    height: 30px; 
+    top: 415px;
+    text-align: right;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    left: 50px;
+}
+
+.right7{
+    position: fixed;
+    width: 775px;
+    height: 30px; 
+    top: 429px;
+    text-align: right;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    left: 50px;
+}
+
+.right8{
+    position: fixed;
+    width: 722px;
+    height: 30px; 
+    top:  380px;
+    text-align: right;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    left: 50px;
+}
