@@ -52,7 +52,7 @@ li a:hover {
     height: 15px;
     width: 40px;
     background-color: #1a73e8;
-}
+  }
 
 .button:hover {
     border: 1px solid #c8c8c8;
@@ -149,15 +149,15 @@ li a:hover {
     top: 145px;
     border-top: 1px solid #ebebeb;;
     width: 100%;
-    height: 330px;
+    height: 0px;
 }
 
 .border2{
     position: fixed;
     left: 0;
-    top: 470px;
+    top: 520px;
     border-top: 1px solid #ebebeb;
-    width: 1000px;
+    width: 1040px;
     height: 330px; 
 }
 
@@ -173,84 +173,295 @@ li a:hover {
 
 .right2{
     position: fixed;
-    width: 830px;
+    width: 230px;
     height: 30px; 
     top: 225px;
     text-align: right;
     font-family: arial,sans-serif;
     color: #555;
     font-size: 11px;
-    left: 50px;
+    left: 650px;
 }
 
 .right3{
     position: fixed;
-    width: 795px;
+    width: 195px;
     height: 30px; 
     top: 272px;
     text-align: right;
     font-family: arial,sans-serif;
     color: #555;
     font-size: 11px;
-    left: 50px;
+    left: 650px;
 }
 
 .right4{
     position: fixed;
-    width: 925px;
+    width: 325px;
     height: 30px; 
     top: 322px;
     text-align: right;
     font-family: arial,sans-serif;
     color: #555;
     font-size: 11px;
-    left: 50px;
+    left: 650px;
 }
 
 .right5{
     position: fixed;
-    width: 875px;
+    width: 275px;
     height: 30px; 
     top: 368px;
     text-align: right;
     font-family: arial,sans-serif;
     color: #555;
     font-size: 11px;
-    left: 50px;
+    left: 650px;
 }
 
 .right6{
     position: fixed;
-    width: 958px;
+    width: 358px;
     height: 30px; 
     top: 415px;
     text-align: right;
     font-family: arial,sans-serif;
     color: #555;
     font-size: 11px;
-    left: 50px;
+    left: 650px;
 }
 
 .right7{
     position: fixed;
-    width: 775px;
+    width: 175px;
     height: 30px; 
     top: 429px;
     text-align: right;
     font-family: arial,sans-serif;
     color: #555;
     font-size: 11px;
-    left: 50px;
+    left: 650px;
 }
 
 .right8{
     position: fixed;
-    width: 722px;
+    width: 175px;
     height: 30px; 
     top:  380px;
     text-align: right;
     font-family: arial,sans-serif;
     color: #555;
     font-size: 11px;
+    left: 599px;
+}
+
+.left1{
+    position: fixed;
+    width: 160px;
+    height: 30px; 
+    top:  225px;
+    text-align: left;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
     left: 50px;
+}
+
+.left2{
+    position: fixed;
+    width: 160px;
+    height: 30px; 
+    top:  275px;
+    text-align: left;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    left: 50px;
+}
+
+.left3{
+    position: fixed;
+    width: 160px;
+    height: 30px; 
+    top:  315px;
+    text-align: left;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    left: 50px;
+}
+
+.left4{
+    position: fixed;
+    width: 160px;
+    height: 30px; 
+    top:  364px;
+    text-align: left;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    left: 50px; 
+}
+
+.left5{
+    position: fixed;
+    width: 160px;
+    height: 30px; 
+    top:  413px;
+    text-align: left;
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    left: 50px; 
+}
+
+#adv{
+    width: 120px;
+    height: 30px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a73e8;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    left: 520px;
+    top: 460px;
+    position: fixed;
+}
+
+@media (max-width: 640px) {
+    #adv{
+        width: 120px;
+        height: 30px;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #1a73e8;
+        color: #fff;
+        text-align: center;
+        border-radius: 3px;
+        left: 370px;
+        top: 460px;
+        position: fixed;
+    }
+}
+
+.countryBar {
+    background-color: rgb(242, 242, 242);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 65px;
+  }
+  
+  .country {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
+    font-size: 15px;
+    text-align: left;
+    left: 30px;
+    bottom: 60px;
+  }
+  
+  .lastBar {
+    background-color: rgb(242, 242, 242);
+    position: fixed;
+    bottom: -50px;
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 65px;
+    border-width: 1px;
+    border-top-style: solid;
+    border-color: rgb(218, 220, 224);
+  }
+  
+  .list_left {
+    position: fixed;
+    bottom: -10px;
+    left: 20px;
+  }
+  
+  .list_right {
+    position: fixed;
+    bottom: -10px;
+    right: 60px;
+  }
+  
+  .barring {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
+    font-size: 15px;
+  }
+  
+  
+  @media (max-width: 700px) {
+    .list_right {
+      bottom: -30px;
+    }
+  }
+  
+  @media (max-height: 800px) {
+    .countryBar {
+      background-color: white;
+      left: 0;
+      width: 0px;
+    }
+  
+    .lastBar {
+      background-color: white;
+      left: 1000;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      width: 0px;
+      height: 0px;
+      border-color: white;
+    }
+  
+    .list_left {
+      left: 60000px;
+    }
+  
+    .list_right {
+      right: 60000px;
+    }
+  
+    .country {
+      left: 60000px;
+    }
+  }
+
+.left_bottom{
+    position: fixed;
+    width: 160px;
+    height: 30px; 
+    top:  543px;
+    text-align: left;
+    font-family: arial,sans-serif;
+    color: #333;
+    font-size: 16px;
+    left: 50px; 
+}
+
+.links{
+    color: blue;
+    width: 290px;
+    height: 1px; 
+    text-align: left;
+    font-size: 13px;
+}
+
+.links_list{
+    position: fixed;
+    width: 351px;
+    height: 130px; 
+    top:  543px;
+    font-family: arial,sans-serif;
+    color: #333;
+    left: 0px; 
+    text-align: left;
 }
