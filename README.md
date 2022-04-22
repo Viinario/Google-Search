@@ -79,5 +79,5 @@ The `search fields` allow you to enter your query and Google will provide you wi
   You can find the results of your query by clicking at `Advanced Search`. 
   
  # Conclusion
- I created this project for the _**CS50's Web Programming with Python and JavaScript course**_.<br/>I learned how to implement and improve my ideas _**HTML**_ and _**CSS**_ in this project.
+ I created this project for the _**CS50's Web Programming with Python and JavaScript course**_.<br/>I learned how to implement and improve my ideas by using _**HTML**_ and _**CSS**_ in this project.
  
